@@ -12,21 +12,31 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <h2>Movie Reviews</h2>
+    <header>
+        <h1>🎬 Movie Reviews</h1>
+    </header>
 
-    <form id="review-form">
-        <input type="text" id="title" placeholder="Movie Title" required>
-        <input type="text" id="review" placeholder="Your Review" required>
-        <input type="number" id="rating" placeholder="Rating (1-10)" required>
-        <button type="submit">Add Review</button>
-    </form>
-    <div class="input-group my-3">
-        <input type="text" id="search" class="form-control" placeholder="Search reviews..." onkeyup="searchReviews()">
-        <span class="input-group-text">🔍</span>
-    </div>
-    
+    <main class="container">
+        <!-- Review Form -->
+        <div class="review-form">
+            <h2>Add a Review</h2>
+            <form id="review-form">
+                <input type="text" id="title" placeholder="Movie Title" required>
+                <input type="text" id="review" placeholder="Your Review" required>
+                <input type="number" id="rating" placeholder="Rating (1-10)" required>
+                <button type="submit">Add Review</button>
+            </form>
+        </div>
 
-    <ul id="review-list"></ul>
+        <!-- Search Bar -->
+        <div class="input-group search-container">
+            <input type="text" id="search" class="form-control" placeholder="Search reviews..." onkeyup="searchReviews()">
+            <span class="input-group-text">🔍</span>
+        </div>
+
+        <!-- Review List -->
+        <ul id="review-list"></ul>
+    </main>
 
     <script src="script.js"></script>
 </body>
