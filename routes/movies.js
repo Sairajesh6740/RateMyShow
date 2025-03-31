@@ -1,5 +1,5 @@
 const express = require("express");
-const Movie = require("../models/Movie");
+const Movie = require("../Models/Movie");
 const router = express.Router();
 
 // Create a new movie review
