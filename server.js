@@ -4,15 +4,14 @@ const cors = require("cors");
 const bodyParser = require("body-parser");
 
 const app = express();
-const cors = require('cors');
-app.use(cors());
-
 
 // Middleware
+app.use(cors());
 app.use(bodyParser.json());
+
+// Routes
 const movieRoutes = require("./routes/movies");
 app.use("/movies", movieRoutes);
-
 
 // Connect to MongoDB
 mongoose
