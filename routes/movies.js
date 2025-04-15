@@ -1,5 +1,9 @@
 const express = require("express");
+<<<<<<< HEAD
 const Movie = require("../models/Movie");
+=======
+const Movie = require("../Models/Movie");
+>>>>>>> 5a5453c80fcadaaa3561a8fe35a6b74c736c54c4
 const router = express.Router();
 
 // Create a new movie review
