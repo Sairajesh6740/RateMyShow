@@ -1,4 +1,4 @@
-const API_URL = 'http://localhost:5000/movies';
+const API_URL = 'https://your-render-backend-url.onrender.com/movies';
 
 // Function to fetch and display all movie reviews
 async function fetchReviews() {
