@@ -9,7 +9,6 @@ app.use(cors());
 
 
 // Middleware
-app.use(cors());
 app.use(bodyParser.json());
 const movieRoutes = require("./routes/movies");
 app.use("/movies", movieRoutes);
