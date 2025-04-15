@@ -1,37 +1,21 @@
 /* General Styles */
 body {
-<<<<<<< HEAD
-=======
-    font-family: Arial, sans-serif;
->>>>>>> 5a5453c80fcadaaa3561a8fe35a6b74c736c54c4
+    font-family: 'Segoe UI', Arial, sans-serif;
     background: linear-gradient(135deg, #1f1c2c, #928dab);
     color: white;
     text-align: center;
     margin: 0;
-    padding: 0;
-<<<<<<< HEAD
-    font-family: 'Segoe UI', sans-serif;
-    font-size: 40px; /* Increase base font size */
-    line-height: 1.6;
     padding: 20px;
+    font-size: 40px;
+    line-height: 1.6;
     font-weight: 700;
-    }
-    
-=======
->>>>>>> 5a5453c80fcadaaa3561a8fe35a6b74c736c54c4
 }
 
 /* Header */
 header {
-<<<<<<< HEAD
     padding: 30px;
     background: rgba(0, 0, 0, 0.6);
     backdrop-filter: blur(20px);
-=======
-    padding: 20px;
-    background: rgba(0, 0, 0, 0.6);
-    backdrop-filter: blur(10px);
->>>>>>> 5a5453c80fcadaaa3561a8fe35a6b74c736c54c4
     position: sticky;
     top: 0;
     width: 100%;
@@ -48,13 +32,8 @@ h1 {
 
 /* Search Bar */
 #searchBar {
-<<<<<<< HEAD
     padding: 30px;
     width: 300px;
-=======
-    padding: 10px;
-    width: 200px;
->>>>>>> 5a5453c80fcadaaa3561a8fe35a6b74c736c54c4
     border-radius: 20px;
     border: none;
     outline: none;
@@ -96,7 +75,8 @@ button {
 button:hover {
     background: #ff3a1a;
 }
-<<<<<<< HEAD
+
+/* Banner */
 .banner-container {
     width: 100%;
     overflow: hidden;
@@ -116,5 +96,3 @@ button:hover {
 .banner-img:hover {
     transform: scale(1.02);
 }
-=======
->>>>>>> 5a5453c80fcadaaa3561a8fe35a6b74c736c54c4
